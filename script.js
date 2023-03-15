@@ -1,7 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://task.wito16.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/cards?key=05e884cf04833d6a35c485b33927d4fd&token=ATTA2993160dc96310b5b89cb74f37d2b9541cc0c100615016fc72d8f1d081259ad3CC752D3F&name=My first Task&desc=Super task!&pos=top&idList=63e29b857e9825f6e5ef36c8
-';
+  const trelloApiRoot = 'http://localhost:8080/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
