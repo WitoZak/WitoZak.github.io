@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://task.wito16.repl.co/v1/tasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello';
+  const apiRoot = 'https://replit.com/@wito16/task';
+  const trelloApiRoot = 'https://replit.com/@wito16/task/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
